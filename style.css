@@ -31,7 +31,7 @@
 }
 
 .item {
-  border: 2px solid blue;
+  box-shadow: 1px 1px 1px grey;
   border-radius: 5px;
   box-sizing: border-box;
   display: flex;
@@ -52,7 +52,8 @@
 }
 
 .item .item__image {
-  width: 100%;
+  margin: auto;
+  width: 60%;
 }
 
 .item .item__add {
